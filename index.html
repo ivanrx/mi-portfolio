@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portfolio</title>
+
+    <!--Unicons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--Swiper CSS-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!--Header-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Ivan</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#inicio" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Inicio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#sobreMi" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> Sobre Mí
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#habilidades" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Habilidades
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experiencias" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Experiencias
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contacto" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contacto
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <!--Boton de cambiar tema-->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--MAIN-->
+    <main class="main">
+        <!--HOME-->
+        <section class="home section" id="inicio">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/ivan-rojas-4b16b9229/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/ivanrx" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+                    <div class="home__img">
+                        <?xml version="1.0" standalone="no"?>
+                        <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M59.3,-60.2C74.4,-44.2,82.5,-22.1,82.2,-0.3C81.9,21.5,73.3,43.1,58.2,57.7C43.1,72.2,21.5,79.9,2.6,77.2C-16.3,74.6,-32.6,61.7,-45.2,47.2C-57.9,32.6,-66.9,16.3,-70.3,-3.4C-73.7,-23,-71.4,-46.1,-58.8,-62.1C-46.1,-78,-23,-86.9,-0.5,-86.5C22.1,-86,44.2,-76.2,59.3,-60.2Z" transform="translate(100 100)" />
+                            <image class="home__blob-img" x="10" y="25" xlink:href="assets/img/spiderman.png">
+                        </svg>
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Hola, soy Iván</h1>
+                        <h3 class="home__subtitle">Full Stack Developer</h3>
+                        <p class="home__description">Experiencia de alto nivel en diseño web y conocimientos de desarrollo, produciendo un trabajo de calidad.</p>
+                        <a href="#contacto" class="button button-flex">
+                            Contáctame <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <a href="#sobreMi" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Desliza abajo</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--ABOUT-->
+            <section class="about section" id="sobreMi">
+                <h2 class="section__title">Sobre Mí</h2>
+                <span class="section__subtitle">Mi introducción</span>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/perfil.jpg" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">
+                            Desarrollador Web, deseoso de abordar los desafíos de desarrollo/diseño web 
+                            para lograr impactos duraderos en la experiencia del usuario.
+                        </p>
+                        <div class="about__info">
+                            <!--<div>
+                                <span class="about__info-title">02+</span>
+                                <span class="about__info-name">Proyectos <br> Finalizados</span>
+                            </div>-->
+                        </div>
+                        <div class="about__buttons">
+                            <a download="" href="#" class="button button--flex">
+                                Descargar CV<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Habilidades-->
+            <section class="habilidades section" id="habilidades">
+                <h2 class="section__title">Habilidades</h2>
+                <span class="section__subtitle">Mi nivel técnico</span>
+
+                <div class="skills__container container grid">
+                    <div>
+                        <!--Skill 1-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Desarrollador Frontend</h1>
+                                    <span class="skills__subtitle"></span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__js"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">TypeScript</h3>
+                                        <span class="skills__number">50%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__ts"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Skill 2-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-server-network-alt skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Desarrollador Backend</h1>
+                                    <span class="skills__subtitle"></span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Java</h3>
+                                        <span class="skills__number">0%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__java"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__py"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">C</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__c"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <!--Skill 3-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-swatchbook skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Frameworks</h1>
+                                    <span class="skills__subtitle"></span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__bootstrap"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Angular</h3>
+                                        <span class="skills__number">10%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__angular"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Experiencias-->
+            <section class="qualification section" id="experiencias">
+                <h2 class="section__title">Experiencias</h2>
+                <span class="section__subtitle">Mi trayecto personal</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target= '#education'>
+                            <i class="uil uil-graduation-cap qualification__icon"></i> Educación
+                        </div>
+                        <div class="qualification__button button--flex qualification__active" data-target= '#work'>
+                            <i class="uil uil-briefcase-alt qualification__icon"></i> Trabajos
+                        </div>
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <!--Estudios-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Secundario Completo</h3>
+                                <span class="qualification__subtitle">Inst. Obispo Caixal</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2009-2014
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        
+
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">Contador Público (Abandonado)</h3>
+                                <span class="qualification__subtitle">Fac. de Ciencias Económicas - UNC</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2015-2019
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Auxiliar Contable</h3>
+                                <span class="qualification__subtitle">CEICOS</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2018
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        
+
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">Lic. en Ciencias de la Computación</h3>
+                                <span class="qualification__subtitle">FAMAF</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2020 - Actualidad 
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">#SeProgramar</h3>
+                                <span class="qualification__subtitle">Argentina Programa</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2021 
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">#YoProgramo</h3>
+                                <span class="qualification__subtitle">Argentina Programa</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2021 - 2022 
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!--Trabajos-->
+                    <div class="qualification__content" data-content id="work">
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Pasantías</h3>
+                                <span class="qualification__subtitle">Estudio Contable Cra. Liliana Hames</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2014
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--Portfolio-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Proyectos más recientes</span>
+
+                <div class="portfolio__container container swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!--Proyecto 1-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/Proyecto404.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">404 Not Found</h3>
+                                <p class="portfolio__description">Responsive Website que se muestra cuando ocuree el error 404</p>
+                                <a href="https://keen-benz-cdc8f5.netlify.app/" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--Proyecto 2-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/Proyecto404.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">404 Not Found</h3>
+                                <p class="portfolio__description">Responsive Website que se muestra cuando ocuree el error 404</p>
+                                <a href="https://keen-benz-cdc8f5.netlify.app/" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--Contact me--->
+            <section class="contact section" id="contacto">
+                <h2 class="section__title">Escríbeme</h2>
+                <span class="section__subtitle">Ponte en contacto</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Llámame</h3>
+                                <span class="contact__subtitle">351 396 7122</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Correo</h3>
+                                <span class="contact__subtitle">ivanxrojasx@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Ubicación</h3>
+                                <span class="contact__subtitle">Córdoba - Capital</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Nombre</label>
+                                <input type="text" class="contact__input">
+                            </div>
+
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__input">
+                            </div>
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Proyecto</label>
+                            <input type="text" class="contact__input">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Mensaje</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Enviar mensaje
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                        
+                    </form>
+                </div>
+            </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Iván</h1>
+                    <span class="footer__subtitle">Desarrollador Web Full Stack</span>
+                </div>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#habilidades" class="footer__link">Habilidades</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contacto" class="footer__link">Contáctame</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://facebook.com/ivan.rojas.581525/" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="https://instagram.com/ivanrxjxs/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ivan-rojas-4b16b9229/" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+ 
+
+    <!--Scroll Top-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <!--Swiper JS-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--JavaScript-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
